@@ -1,0 +1,72 @@
+
+/* NAVBAR STYLES STARTS */
+.navbar {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.navbar > .nav-brand {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 10px;
+}
+.navbar > .nav-link {
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar > .nav-link > #nav-item1 {
+    color: grey;
+    font-weight: 600;
+    letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar > .nav-link > #nav-item2 {
+    background-color: rgb(15, 173, 173);
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+/* NAVBAR STYLES ENDS */
+
+/* HOME SECTION STARTS */
+
+.home {
+    height: 40vh;
+    background: linear-gradient(to left,
+     lightblue, 
+     rgb(113, 113, 148),
+    rgb(65, 65, 143));
+    display: flex;
+}
+
+.home > .home-left {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    /* flex direction aligns the items vertically */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home > .home-left > p {
+    margin: 0;
+}
+
+.home > .home-right {
+    height: 100%;
+    width: 50%;
+    background-image: url("./backiee-275105-landscape.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+/*  HOME SECTION ENDS */
